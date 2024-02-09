@@ -38,7 +38,7 @@ FabLife est une application API RESTful qui vous permet de gérer des recettes d
 ## Exemple d'utilisation
 
 - Créer un nouvel ingrédient :
-  - Endpoint : `POST /ingredients`
+  - Endpoint : `POST /ingredient`
   - Corps de la requête :
     ```json
     {
@@ -47,4 +47,4 @@ FabLife est une application API RESTful qui vous permet de gérer des recettes d
     }
     ```
 - Obtenir toutes les recettes :
-  - Endpoint : `GET /recipes`
+  - Endpoint : `GET /recipe`
